@@ -38,8 +38,11 @@ if (+number > 0) {
     document.write(number + " is positive")
 } else if (+number < 0) {
     document.write(number + " is negative")
-} else {
+} else if(+number == 0){
     document.write(number + " is zero")
+}
+else{
+    document.write(number + " is not a number")
 }
 
 // 4. Write a program that takes a character (i.e. string of
